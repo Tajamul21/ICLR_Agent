@@ -169,6 +169,9 @@ Run in command line manner.
 bash data_generation.sh
 ```
 
+Run each command separately, also make a copy of the current environment, and then run the additional requirements, so for some files you can run the current tongagent and for with the new environment.
+You may face some path issues, so you may have to manually move the generated files to run.
+
 ## 🌟 Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=mat-agent/MAT-Agent&type=Date)](https://star-history.com/#mat-agent/MAT-Agent&Date)
 
