@@ -1,42 +1,4 @@
 
-# <img src="assets/icon.png" alt="icon" style="width:35px;margin-bottom:-8px;"/> MAT: <ins>M</ins>ulti-modal <ins>A</ins>gent <ins>T</ins>uning  **🔥 ICLR 2025 (Spotlight)**
-
-![authors](assets/authors.png) 
-
-🚀 **VLM-Powered Agent for Intelligent Tool Orchestration** | 🔧 **Open-source Framework for Multi-modal AI**
-
-<p align="center">
-  <a href="https://github.com/mat-agent/MAT-Agent/stargazers">
-    <img src="https://img.shields.io/github/stars/mat-agent/MAT-Agent?style=social&label=Stars" alt="GitHub Stars">
-  </a>
-  <a href="https://arxiv.org/abs/2412.15606">
-    <img src="https://img.shields.io/badge/arXiv-2412.15606-b31b1b?logo=arxiv" alt="arXiv Paper">
-  </a>
-</p>
-
-<p align="center">
-  🤗 <a href="https://huggingface.co/datasets/PengxiangLi/MAT">Dataset</a> • 
-  🌐 <a href="https://mat-agent.github.io/">Webpage</a> • 
-  📄 <a href="https://arxiv.org/pdf/2412.15606">Paper</a>  
-<!--   🚦 <a href="#quickstart">Quick Start</a> -->
-</p>
-
-<!-- ![MAT Architecture](assets/framework.jpg)  -->
-<!-- *✨ MAT Framework Overview - Seamless Integration of Vision, Language, and Tools* -->
-
-## 🌟 Features
-- 🎯 **Precision Tools** - 10+ integrated tools (SAM 2.0, Web Search, OCR, etc.) 
-- 🧠 **Multi-modal Memory** - Context-aware task execution
-- 🔄 **Self-Correction** - Auto-verification mechanism for reliable outputs
-- 🌍 **Real-World Ready** - Google Search API integration ets
-
-### Performance Highlights (Baseline: Minicpm-V-8.5B)
-| Model        | GAIA-L1 | GAIA-L2 | GAIA-L3 | GTA   |
-|--------------|---------|---------|---------|-------|
-| Baseline     |13.21%   | 5.81%   | 0.00%   | 33.97% |
-| **MAT**      | 🚀26.42% | 🚀11.63% | 🚀3.84% | 🚀52.56% |
-# 🛠️ Setup
-
 ## Install environment
 ```bash
 conda create -n tongagent python=3.10
