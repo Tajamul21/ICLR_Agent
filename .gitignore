@@ -3,22 +3,25 @@ __pycache__/
 
 # Ignore logs
 .cache
-cache
+cache/
 .env
 *.key
 configs/
 
 # Ignore data       
 data/
-model_checkpoints
+model_checkpoints/
 
 set_keys.sh
 
-data_generation/gaia_pipeline/final_save
-data_generation/gaia_pipeline/log
-MAT
-data_generation/gaia_pipeline/save
+data_generation/gaia_pipeline/final_save/
+data_generation/gaia_pipeline/log/
+MAT/
+data_generation/gaia_pipeline/save/
 
-wandb
+
 wandb/
 *.key
+
+sam2_local/
+sam2/
