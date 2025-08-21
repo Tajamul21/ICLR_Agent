@@ -1,0 +1,18 @@
+ore Python cache
+__pycache__/
+*.pyc
+
+# Ignore logs
+.cache
+cache
+
+# Ignore data
+data/
+model_checkpoints
+
+set_keys.sh
+
+data_generation/gaia_pipeline/final_save
+data_generation/gaia_pipeline/log
+MAT
+data_generation/gaia_pipeline/save

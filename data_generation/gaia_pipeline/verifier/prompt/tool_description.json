@@ -1,0 +1,18 @@
+[
+  {
+    "tool_name": "ask_search_agent",
+    "description": "This will send a message to an agent that will browse the internet to answer your question. Ask them for all your web-search related questions, but they're unable to do problem-solving. Provide as much context as possible, in particular if you need to search on a specific timeframe! And don't hesitate to provide a complex search task, like finding a difference between two webpages."
+  },
+  {
+    "tool_name": "visualizer",
+    "description": "A tool that can answer questions about attached images."
+  },
+  {
+    "tool_name": "PythonInterpreter",
+    "description": "A tool that can execute Python code to do calculation and plotting, etc."
+  },
+  {
+    "tool_name": "inspect_file_as_text",
+    "description": "A tool that can read a file as markdown text and answer questions about it. This tool handles the following file extensions: [\".html\", \".htm\", \".xlsx\", \".pptx\", \".wav\", \".mp3\", \".flac\", \".pdf\", \".docx\"], and all other types of text files. IT DOES NOT HANDLE IMAGES."
+  }
+]
